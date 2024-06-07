@@ -70,5 +70,7 @@ public class calc_Gananci extends AppCompatActivity {
         // Se muestra el total en la interfaz de usuario
         total.setText(formattedTotal);
         System.out.println(formattedTotal + "$");
+
     }
+
 }
