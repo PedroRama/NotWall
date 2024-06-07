@@ -1,9 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.NOTWALL" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.NotWall" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.NOTWALL" parent="Base.Theme.NOTWALL" />
+    <style name="Theme.NotWall" parent="Base.Theme.NotWall">
+        <item name="colorPrimary">@color/negro</item>
+    </style>
+
+
+    <style name="BottomNavigation">
+        <item name="android:background">@color/green_aplication</item>
+        <item name="itemIconTint">@color/negro</item>
+        <item name="itemTextColor">@color/negro</item>
+    </style>
+
 </resources>

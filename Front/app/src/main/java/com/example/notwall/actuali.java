@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Actualizaciones extends AppCompatActivity {
+import com.aplication.NotWall.R;
+
+public class actuali extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

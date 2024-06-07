@@ -10,17 +10,34 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NOTWALL"
+        android:theme="@style/Theme.NotWall"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.notwall.actuali"
+            android:exported="false" />
+        <activity
+            android:name="com.example.notwall.calc_Gananci"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.notwall.calc_MediaCompras"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.notwall.calc_PorcentGananci"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.notwall.Register"
+            android:exported="true" />
+        <activity
+            android:name="com.example.notwall.Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.notwall.MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

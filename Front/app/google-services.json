@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "59688150008",
+    "firebase_url": "https://notwall-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "notwall",
+    "storage_bucket": "notwall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59688150008:android:14faf72e855b106ca22c0d",
+        "android_client_info": {
+          "package_name": "com.aplication.NotWall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ34QWtduJlC1gXI-vIaC1sXQVZG36lIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

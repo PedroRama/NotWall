@@ -13,6 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NOTWALL"
+rootProject.name = "NotWall"
 include(":app")
- 

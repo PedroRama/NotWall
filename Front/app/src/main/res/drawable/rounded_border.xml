@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-  
-</selector>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- Color de fondo de la imagen -->
+    <corners android:radius="10dp"/> <!-- Radio del borde redondeado -->
+    <stroke android:color="#000000" android:width="2dp"/> <!-- Color y ancho del borde -->
+</shape>
